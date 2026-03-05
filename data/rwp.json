@@ -1,0 +1,1002 @@
+﻿[
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1250,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4405,
+        "qta_impegnata_ml":  247,
+        "giacenza_codice_fornitore":  "RWP-8109"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  410,
+        "qta_impegnata_ml":  406,
+        "giacenza_codice_fornitore":  "RWP-8476"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3158,
+        "qta_impegnata_ml":  413,
+        "giacenza_codice_fornitore":  "RWP-3312"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4486,
+        "qta_impegnata_ml":  315,
+        "giacenza_codice_fornitore":  "RWP-8452"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1352,
+        "qta_impegnata_ml":  200,
+        "giacenza_codice_fornitore":  "RWP-8239"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3835,
+        "qta_impegnata_ml":  195,
+        "giacenza_codice_fornitore":  "RWP-5882"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1250,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1344,
+        "qta_impegnata_ml":  218,
+        "giacenza_codice_fornitore":  "RWP-2227"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1397,
+        "qta_impegnata_ml":  439,
+        "giacenza_codice_fornitore":  "RWP-7398"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4922,
+        "qta_impegnata_ml":  483,
+        "giacenza_codice_fornitore":  "RWP-6383"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  234,
+        "qta_impegnata_ml":  449,
+        "giacenza_codice_fornitore":  "RWP-6858"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1193,
+        "qta_impegnata_ml":  120,
+        "giacenza_codice_fornitore":  "RWP-2852"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  625,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3147,
+        "qta_impegnata_ml":  161,
+        "giacenza_codice_fornitore":  "RWP-6090"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4070,
+        "qta_impegnata_ml":  195,
+        "giacenza_codice_fornitore":  "RWP-9394"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1925,
+        "qta_impegnata_ml":  481,
+        "giacenza_codice_fornitore":  "RWP-2249"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  107,
+        "qta_impegnata_ml":  394,
+        "giacenza_codice_fornitore":  "RWP-4272"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1250,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1157,
+        "qta_impegnata_ml":  267,
+        "giacenza_codice_fornitore":  "RWP-6688"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2488,
+        "qta_impegnata_ml":  4,
+        "giacenza_codice_fornitore":  "RWP-3124"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1946,
+        "qta_impegnata_ml":  281,
+        "giacenza_codice_fornitore":  "RWP-8433"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2628,
+        "qta_impegnata_ml":  496,
+        "giacenza_codice_fornitore":  "RWP-1766"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2027,
+        "qta_impegnata_ml":  321,
+        "giacenza_codice_fornitore":  "RWP-6090"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1250,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2337,
+        "qta_impegnata_ml":  120,
+        "giacenza_codice_fornitore":  "RWP-8825"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1250,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4785,
+        "qta_impegnata_ml":  113,
+        "giacenza_codice_fornitore":  "RWP-3863"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2900,
+        "qta_impegnata_ml":  92,
+        "giacenza_codice_fornitore":  "RWP-2902"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1367,
+        "qta_impegnata_ml":  402,
+        "giacenza_codice_fornitore":  "RWP-3642"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4526,
+        "qta_impegnata_ml":  370,
+        "giacenza_codice_fornitore":  "RWP-8044"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1598,
+        "qta_impegnata_ml":  292,
+        "giacenza_codice_fornitore":  "RWP-8221"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3840,
+        "qta_impegnata_ml":  317,
+        "giacenza_codice_fornitore":  "RWP-9833"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  790,
+        "qta_impegnata_ml":  421,
+        "giacenza_codice_fornitore":  "RWP-2452"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2232,
+        "qta_impegnata_ml":  204,
+        "giacenza_codice_fornitore":  "RWP-9938"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  982,
+        "qta_impegnata_ml":  339,
+        "giacenza_codice_fornitore":  "RWP-6366"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1602,
+        "qta_impegnata_ml":  384,
+        "giacenza_codice_fornitore":  "RWP-3814"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1282,
+        "qta_impegnata_ml":  44,
+        "giacenza_codice_fornitore":  "RWP-2380"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2478,
+        "qta_impegnata_ml":  362,
+        "giacenza_codice_fornitore":  "RWP-8515"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1093,
+        "qta_impegnata_ml":  242,
+        "giacenza_codice_fornitore":  "RWP-2152"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  723,
+        "qta_impegnata_ml":  124,
+        "giacenza_codice_fornitore":  "RWP-1339"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2524,
+        "qta_impegnata_ml":  225,
+        "giacenza_codice_fornitore":  "RWP-2884"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  561,
+        "qta_impegnata_ml":  291,
+        "giacenza_codice_fornitore":  "RWP-3969"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3817,
+        "qta_impegnata_ml":  188,
+        "giacenza_codice_fornitore":  "RWP-8603"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3533,
+        "qta_impegnata_ml":  34,
+        "giacenza_codice_fornitore":  "RWP-9821"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1349,
+        "qta_impegnata_ml":  235,
+        "giacenza_codice_fornitore":  "RWP-2893"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1196,
+        "qta_impegnata_ml":  24,
+        "giacenza_codice_fornitore":  "RWP-8016"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3508,
+        "qta_impegnata_ml":  440,
+        "giacenza_codice_fornitore":  "RWP-1290"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2351,
+        "qta_impegnata_ml":  39,
+        "giacenza_codice_fornitore":  "RWP-9045"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1218,
+        "qta_impegnata_ml":  495,
+        "giacenza_codice_fornitore":  "RWP-8281"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4633,
+        "qta_impegnata_ml":  418,
+        "giacenza_codice_fornitore":  "RWP-7188"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2160,
+        "qta_impegnata_ml":  386,
+        "giacenza_codice_fornitore":  "RWP-6904"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  284,
+        "qta_impegnata_ml":  219,
+        "giacenza_codice_fornitore":  "RWP-6779"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2539,
+        "qta_impegnata_ml":  56,
+        "giacenza_codice_fornitore":  "RWP-7175"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1463,
+        "qta_impegnata_ml":  327,
+        "giacenza_codice_fornitore":  "RWP-3912"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1250,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3717,
+        "qta_impegnata_ml":  132,
+        "giacenza_codice_fornitore":  "RWP-1312"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2545,
+        "qta_impegnata_ml":  46,
+        "giacenza_codice_fornitore":  "RWP-7990"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  684,
+        "qta_impegnata_ml":  419,
+        "giacenza_codice_fornitore":  "RWP-2169"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2047,
+        "qta_impegnata_ml":  278,
+        "giacenza_codice_fornitore":  "RWP-9384"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4445,
+        "qta_impegnata_ml":  438,
+        "giacenza_codice_fornitore":  "RWP-7587"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2442,
+        "qta_impegnata_ml":  323,
+        "giacenza_codice_fornitore":  "RWP-2231"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2086,
+        "qta_impegnata_ml":  481,
+        "giacenza_codice_fornitore":  "RWP-2453"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4064,
+        "qta_impegnata_ml":  83,
+        "giacenza_codice_fornitore":  "RWP-1037"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1250,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3345,
+        "qta_impegnata_ml":  451,
+        "giacenza_codice_fornitore":  "RWP-8846"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1078,
+        "qta_impegnata_ml":  155,
+        "giacenza_codice_fornitore":  "RWP-5011"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4789,
+        "qta_impegnata_ml":  426,
+        "giacenza_codice_fornitore":  "RWP-8874"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2736,
+        "qta_impegnata_ml":  263,
+        "giacenza_codice_fornitore":  "RWP-2067"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2033,
+        "qta_impegnata_ml":  308,
+        "giacenza_codice_fornitore":  "RWP-2084"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  471,
+        "qta_impegnata_ml":  109,
+        "giacenza_codice_fornitore":  "RWP-6260"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2127,
+        "qta_impegnata_ml":  108,
+        "giacenza_codice_fornitore":  "RWP-7468"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1858,
+        "qta_impegnata_ml":  180,
+        "giacenza_codice_fornitore":  "RWP-9806"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1500,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1870,
+        "qta_impegnata_ml":  478,
+        "giacenza_codice_fornitore":  "RWP-5427"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1000,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3035,
+        "qta_impegnata_ml":  243,
+        "giacenza_codice_fornitore":  "RWP-4425"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  101,
+        "qta_impegnata_ml":  477,
+        "giacenza_codice_fornitore":  "RWP-4178"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1500,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1927,
+        "qta_impegnata_ml":  427,
+        "giacenza_codice_fornitore":  "RWP-2647"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1270,
+        "qta_impegnata_ml":  123,
+        "giacenza_codice_fornitore":  "RWP-6723"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4013,
+        "qta_impegnata_ml":  303,
+        "giacenza_codice_fornitore":  "RWP-5461"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4482,
+        "qta_impegnata_ml":  273,
+        "giacenza_codice_fornitore":  "RWP-6593"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4983,
+        "qta_impegnata_ml":  120,
+        "giacenza_codice_fornitore":  "RWP-8884"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2729,
+        "qta_impegnata_ml":  423,
+        "giacenza_codice_fornitore":  "RWP-5792"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4057,
+        "qta_impegnata_ml":  358,
+        "giacenza_codice_fornitore":  "RWP-6347"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1737,
+        "qta_impegnata_ml":  191,
+        "giacenza_codice_fornitore":  "RWP-8973"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1250,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1675,
+        "qta_impegnata_ml":  441,
+        "giacenza_codice_fornitore":  "RWP-2000"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  625,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3418,
+        "qta_impegnata_ml":  391,
+        "giacenza_codice_fornitore":  "RWP-3261"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3575,
+        "qta_impegnata_ml":  370,
+        "giacenza_codice_fornitore":  "RWP-6010"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4189,
+        "qta_impegnata_ml":  287,
+        "giacenza_codice_fornitore":  "RWP-4585"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  391,
+        "qta_impegnata_ml":  268,
+        "giacenza_codice_fornitore":  "RWP-5538"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3482,
+        "qta_impegnata_ml":  211,
+        "giacenza_codice_fornitore":  "RWP-9123"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2020,
+        "qta_impegnata_ml":  63,
+        "giacenza_codice_fornitore":  "RWP-6689"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3740,
+        "qta_impegnata_ml":  66,
+        "giacenza_codice_fornitore":  "RWP-9002"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1968,
+        "qta_impegnata_ml":  499,
+        "giacenza_codice_fornitore":  "RWP-1181"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3137,
+        "qta_impegnata_ml":  93,
+        "giacenza_codice_fornitore":  "RWP-9182"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3211,
+        "qta_impegnata_ml":  494,
+        "giacenza_codice_fornitore":  "RWP-4961"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1250,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1079,
+        "qta_impegnata_ml":  261,
+        "giacenza_codice_fornitore":  "RWP-6529"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2750,
+        "qta_impegnata_ml":  475,
+        "giacenza_codice_fornitore":  "RWP-5077"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3508,
+        "qta_impegnata_ml":  108,
+        "giacenza_codice_fornitore":  "RWP-9341"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2965,
+        "qta_impegnata_ml":  57,
+        "giacenza_codice_fornitore":  "RWP-6228"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1724,
+        "qta_impegnata_ml":  377,
+        "giacenza_codice_fornitore":  "RWP-3114"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  625,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  605,
+        "qta_impegnata_ml":  72,
+        "giacenza_codice_fornitore":  "RWP-5797"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2969,
+        "qta_impegnata_ml":  17,
+        "giacenza_codice_fornitore":  "RWP-6032"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  538,
+        "qta_impegnata_ml":  123,
+        "giacenza_codice_fornitore":  "RWP-4852"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3426,
+        "qta_impegnata_ml":  472,
+        "giacenza_codice_fornitore":  "RWP-8670"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3007,
+        "qta_impegnata_ml":  31,
+        "giacenza_codice_fornitore":  "RWP-4669"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1076,
+        "qta_impegnata_ml":  25,
+        "giacenza_codice_fornitore":  "RWP-2868"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4158,
+        "qta_impegnata_ml":  367,
+        "giacenza_codice_fornitore":  "RWP-9866"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1388,
+        "qta_impegnata_ml":  140,
+        "giacenza_codice_fornitore":  "RWP-8682"
+    }
+]

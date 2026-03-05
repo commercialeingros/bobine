@@ -1,0 +1,1002 @@
+﻿[
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1509,
+        "qta_impegnata_ml":  344,
+        "giacenza_codice_fornitore":  "ING-7375"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1224,
+        "qta_impegnata_ml":  54,
+        "giacenza_codice_fornitore":  "ING-5181"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  538,
+        "qta_impegnata_ml":  295,
+        "giacenza_codice_fornitore":  "ING-4206"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3628,
+        "qta_impegnata_ml":  158,
+        "giacenza_codice_fornitore":  "ING-3934"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3770,
+        "qta_impegnata_ml":  12,
+        "giacenza_codice_fornitore":  "ING-6718"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2435,
+        "qta_impegnata_ml":  125,
+        "giacenza_codice_fornitore":  "ING-7388"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1500,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2678,
+        "qta_impegnata_ml":  267,
+        "giacenza_codice_fornitore":  "ING-8105"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1250,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3255,
+        "qta_impegnata_ml":  11,
+        "giacenza_codice_fornitore":  "ING-2157"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2736,
+        "qta_impegnata_ml":  84,
+        "giacenza_codice_fornitore":  "ING-9872"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  626,
+        "qta_impegnata_ml":  434,
+        "giacenza_codice_fornitore":  "ING-8375"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3643,
+        "qta_impegnata_ml":  185,
+        "giacenza_codice_fornitore":  "ING-4324"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4535,
+        "qta_impegnata_ml":  150,
+        "giacenza_codice_fornitore":  "ING-4442"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4026,
+        "qta_impegnata_ml":  113,
+        "giacenza_codice_fornitore":  "ING-4346"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  625,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2306,
+        "qta_impegnata_ml":  163,
+        "giacenza_codice_fornitore":  "ING-7298"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3627,
+        "qta_impegnata_ml":  135,
+        "giacenza_codice_fornitore":  "ING-6066"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  233,
+        "qta_impegnata_ml":  324,
+        "giacenza_codice_fornitore":  "ING-9397"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  829,
+        "qta_impegnata_ml":  142,
+        "giacenza_codice_fornitore":  "ING-6149"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3534,
+        "qta_impegnata_ml":  180,
+        "giacenza_codice_fornitore":  "ING-7670"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2578,
+        "qta_impegnata_ml":  39,
+        "giacenza_codice_fornitore":  "ING-7304"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3300,
+        "qta_impegnata_ml":  134,
+        "giacenza_codice_fornitore":  "ING-4208"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2282,
+        "qta_impegnata_ml":  360,
+        "giacenza_codice_fornitore":  "ING-5352"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1250,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2346,
+        "qta_impegnata_ml":  161,
+        "giacenza_codice_fornitore":  "ING-3693"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  250,
+        "qta_impegnata_ml":  470,
+        "giacenza_codice_fornitore":  "ING-3398"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4840,
+        "qta_impegnata_ml":  159,
+        "giacenza_codice_fornitore":  "ING-7529"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1250,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  632,
+        "qta_impegnata_ml":  356,
+        "giacenza_codice_fornitore":  "ING-9895"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2046,
+        "qta_impegnata_ml":  284,
+        "giacenza_codice_fornitore":  "ING-4536"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  618,
+        "qta_impegnata_ml":  39,
+        "giacenza_codice_fornitore":  "ING-1411"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1000,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  343,
+        "qta_impegnata_ml":  471,
+        "giacenza_codice_fornitore":  "ING-3691"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  625,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2241,
+        "qta_impegnata_ml":  135,
+        "giacenza_codice_fornitore":  "ING-1266"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2625,
+        "qta_impegnata_ml":  261,
+        "giacenza_codice_fornitore":  "ING-4383"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4833,
+        "qta_impegnata_ml":  180,
+        "giacenza_codice_fornitore":  "ING-8822"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4432,
+        "qta_impegnata_ml":  335,
+        "giacenza_codice_fornitore":  "ING-4426"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  742,
+        "qta_impegnata_ml":  349,
+        "giacenza_codice_fornitore":  "ING-2451"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  370,
+        "qta_impegnata_ml":  420,
+        "giacenza_codice_fornitore":  "ING-3234"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  625,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2730,
+        "qta_impegnata_ml":  275,
+        "giacenza_codice_fornitore":  "ING-2777"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1000,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  2747,
+        "qta_impegnata_ml":  166,
+        "giacenza_codice_fornitore":  "ING-1251"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1889,
+        "qta_impegnata_ml":  134,
+        "giacenza_codice_fornitore":  "ING-9516"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1490,
+        "qta_impegnata_ml":  272,
+        "giacenza_codice_fornitore":  "ING-8687"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1714,
+        "qta_impegnata_ml":  342,
+        "giacenza_codice_fornitore":  "ING-7096"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3918,
+        "qta_impegnata_ml":  201,
+        "giacenza_codice_fornitore":  "ING-3067"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1250,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  4236,
+        "qta_impegnata_ml":  250,
+        "giacenza_codice_fornitore":  "ING-5454"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4549,
+        "qta_impegnata_ml":  300,
+        "giacenza_codice_fornitore":  "ING-9774"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1250,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1081,
+        "qta_impegnata_ml":  216,
+        "giacenza_codice_fornitore":  "ING-1172"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  667,
+        "qta_impegnata_ml":  187,
+        "giacenza_codice_fornitore":  "ING-4420"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  4499,
+        "qta_impegnata_ml":  248,
+        "giacenza_codice_fornitore":  "ING-3551"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  627,
+        "qta_impegnata_ml":  286,
+        "giacenza_codice_fornitore":  "ING-1733"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3208,
+        "qta_impegnata_ml":  388,
+        "giacenza_codice_fornitore":  "ING-8224"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2275,
+        "qta_impegnata_ml":  23,
+        "giacenza_codice_fornitore":  "ING-3427"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  625,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  2966,
+        "qta_impegnata_ml":  147,
+        "giacenza_codice_fornitore":  "ING-4748"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1925,
+        "qta_impegnata_ml":  356,
+        "giacenza_codice_fornitore":  "ING-8259"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3532,
+        "qta_impegnata_ml":  23,
+        "giacenza_codice_fornitore":  "ING-4735"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  904,
+        "qta_impegnata_ml":  139,
+        "giacenza_codice_fornitore":  "ING-4048"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1250,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3791,
+        "qta_impegnata_ml":  408,
+        "giacenza_codice_fornitore":  "ING-1072"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2271,
+        "qta_impegnata_ml":  347,
+        "giacenza_codice_fornitore":  "ING-5791"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1000,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4859,
+        "qta_impegnata_ml":  97,
+        "giacenza_codice_fornitore":  "ING-2515"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2079,
+        "qta_impegnata_ml":  195,
+        "giacenza_codice_fornitore":  "ING-6694"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3329,
+        "qta_impegnata_ml":  379,
+        "giacenza_codice_fornitore":  "ING-8192"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1250,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3129,
+        "qta_impegnata_ml":  218,
+        "giacenza_codice_fornitore":  "ING-1281"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1500,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3889,
+        "qta_impegnata_ml":  437,
+        "giacenza_codice_fornitore":  "ING-2286"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  625,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1998,
+        "qta_impegnata_ml":  364,
+        "giacenza_codice_fornitore":  "ING-4091"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3673,
+        "qta_impegnata_ml":  120,
+        "giacenza_codice_fornitore":  "ING-9786"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  625,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4693,
+        "qta_impegnata_ml":  77,
+        "giacenza_codice_fornitore":  "ING-1032"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  4808,
+        "qta_impegnata_ml":  145,
+        "giacenza_codice_fornitore":  "ING-8506"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  1111,
+        "qta_impegnata_ml":  277,
+        "giacenza_codice_fornitore":  "ING-8086"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2293,
+        "qta_impegnata_ml":  50,
+        "giacenza_codice_fornitore":  "ING-2152"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  322,
+        "qta_impegnata_ml":  110,
+        "giacenza_codice_fornitore":  "ING-6641"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  625,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  4858,
+        "qta_impegnata_ml":  328,
+        "giacenza_codice_fornitore":  "ING-3902"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  800,
+        "qta_impegnata_ml":  373,
+        "giacenza_codice_fornitore":  "ING-8242"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  4520,
+        "qta_impegnata_ml":  434,
+        "giacenza_codice_fornitore":  "ING-6844"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1000,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3548,
+        "qta_impegnata_ml":  101,
+        "giacenza_codice_fornitore":  "ING-3784"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  625,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  757,
+        "qta_impegnata_ml":  138,
+        "giacenza_codice_fornitore":  "ING-6320"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1250,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3855,
+        "qta_impegnata_ml":  324,
+        "giacenza_codice_fornitore":  "ING-6178"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  508,
+        "qta_impegnata_ml":  107,
+        "giacenza_codice_fornitore":  "ING-9070"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  2137,
+        "qta_impegnata_ml":  152,
+        "giacenza_codice_fornitore":  "ING-6381"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1250,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4282,
+        "qta_impegnata_ml":  192,
+        "giacenza_codice_fornitore":  "ING-4318"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2182,
+        "qta_impegnata_ml":  238,
+        "giacenza_codice_fornitore":  "ING-9303"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3622,
+        "qta_impegnata_ml":  425,
+        "giacenza_codice_fornitore":  "ING-9405"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  3057,
+        "qta_impegnata_ml":  457,
+        "giacenza_codice_fornitore":  "ING-2510"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1250,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1684,
+        "qta_impegnata_ml":  379,
+        "giacenza_codice_fornitore":  "ING-3913"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4566,
+        "qta_impegnata_ml":  426,
+        "giacenza_codice_fornitore":  "ING-9352"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4163,
+        "qta_impegnata_ml":  128,
+        "giacenza_codice_fornitore":  "ING-6449"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4722,
+        "qta_impegnata_ml":  45,
+        "giacenza_codice_fornitore":  "ING-8186"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1879,
+        "qta_impegnata_ml":  68,
+        "giacenza_codice_fornitore":  "ING-8313"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1250,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4891,
+        "qta_impegnata_ml":  304,
+        "giacenza_codice_fornitore":  "ING-1173"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  3326,
+        "qta_impegnata_ml":  71,
+        "giacenza_codice_fornitore":  "ING-4531"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1000,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2802,
+        "qta_impegnata_ml":  389,
+        "giacenza_codice_fornitore":  "ING-7343"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4584,
+        "qta_impegnata_ml":  331,
+        "giacenza_codice_fornitore":  "ING-1908"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  625,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  1820,
+        "qta_impegnata_ml":  319,
+        "giacenza_codice_fornitore":  "ING-5612"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4671,
+        "qta_impegnata_ml":  454,
+        "giacenza_codice_fornitore":  "ING-2509"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  625,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4410,
+        "qta_impegnata_ml":  142,
+        "giacenza_codice_fornitore":  "ING-7507"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1250,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4912,
+        "qta_impegnata_ml":  79,
+        "giacenza_codice_fornitore":  "ING-3210"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1500,
+        "spessore":  "6/10",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3710,
+        "qta_impegnata_ml":  378,
+        "giacenza_codice_fornitore":  "ING-5009"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1500,
+        "spessore":  "0.6",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1748,
+        "qta_impegnata_ml":  133,
+        "giacenza_codice_fornitore":  "ING-8653"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1500,
+        "spessore":  "5/10",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4830,
+        "qta_impegnata_ml":  28,
+        "giacenza_codice_fornitore":  "ING-5195"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  625,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  1477,
+        "qta_impegnata_ml":  276,
+        "giacenza_codice_fornitore":  "ING-9926"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1000,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3729,
+        "qta_impegnata_ml":  421,
+        "giacenza_codice_fornitore":  "ING-3222"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "0.5",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3004,
+        "qta_impegnata_ml":  149,
+        "giacenza_codice_fornitore":  "ING-2648"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1500,
+        "spessore":  "8/10",
+        "tipo_verniciatura":  "HDX",
+        "qta_giacenza_ml":  4908,
+        "qta_impegnata_ml":  490,
+        "giacenza_codice_fornitore":  "ING-4625"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "0.7",
+        "tipo_verniciatura":  "POLIESTERE",
+        "qta_giacenza_ml":  4223,
+        "qta_impegnata_ml":  312,
+        "giacenza_codice_fornitore":  "ING-4080"
+    },
+    {
+        "descrizione_tipo_materiale":  "ZINCATO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "0.8",
+        "tipo_verniciatura":  "ZINCATO",
+        "qta_giacenza_ml":  3065,
+        "qta_impegnata_ml":  170,
+        "giacenza_codice_fornitore":  "ING-9331"
+    }
+]
