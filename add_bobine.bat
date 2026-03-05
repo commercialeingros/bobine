@@ -8,7 +8,7 @@
 ::mkdir data
 
 :: Scarica eventuali file già presenti su GitHub (es. README o .gitignore)
-::git pull origin main
+::git push origin main
 
 
 git add .
