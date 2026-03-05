@@ -1,14 +1,19 @@
-echo [1/1] CARICO LE BOBINE
-echo 1. Aggiungi tutti i file (inclusa la cartella data e il file .bat)
+:: Inizializza Git nella nuova cartella
+::git init
+
+:: Collega la cartella locale al nuovo URL di GitHub
+::git remote add origin https://github.com/commercialeingros/bobine.git
+
+:: Crea la cartella data locale (Git la caricherà solo quando ci sarà un file dentro)
+::mkdir data
+
+:: Scarica eventuali file già presenti su GitHub (es. README o .gitignore)
+::git pull origin main
+
+
 git add .
+git commit -m "Aggiunta cartella data con file test"
+git push origin main
 
-echo 2. Crea il commit (ora funzionerà perché i file sono "tracked")
-git commit -m "Primo caricamento: Struttura e Cartella Data"
-
-echo 3. Rinomina il tuo ramo locale da 'master' a 'main' per combaciare con GitHub
-git branch -M main
-
-echo 4. Invia i file su GitHub
-git push -u origin main
 
 pause
