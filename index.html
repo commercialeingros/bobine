@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingros - Gestione Bobine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-md w-full bg-white rounded-3xl shadow-2xl overflow-hidden">
+        <div class="bg-red-600 p-8 text-center">
+            <div class="inline-block bg-white p-4 rounded-2xl shadow-inner mb-4">
+                <i class="fa-solid fa-scroll text-red-600 text-4xl"></i>
+            </div>
+            <h1 class="text-white text-2xl font-black uppercase tracking-tight">Inventario Bobine</h1>
+            <p class="text-red-100 text-sm mt-1">Ingros Coperture Srl</p>
+        </div>
+
+        <div class="p-8 space-y-6">
+            <div class="flex items-center justify-between p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-3">
+                    <div id="status-icon" class="w-3 h-3 rounded-full bg-yellow-400 animate-pulse"></div>
+                    <span class="text-sm font-bold text-gray-600 uppercase">Stato Database</span>
+                </div>
+                <span id="status-text" class="text-xs font-mono text-gray-400">Controllo...</span>
+            </div>
+
+            <div class="grid gap-4">
+                <button onclick="checkData()" class="group flex items-center justify-between p-4 bg-white border-2 border-gray-100 rounded-2xl hover:border-red-600 transition-all active:scale-95 shadow-sm">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-red-50 text-red-600 p-3 rounded-xl group-hover:bg-red-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="text-left">
+                            <h3 class="font-bold text-gray-800 leading-none">Consulta Giacenze</h3>
+                            <p class="text-[10px] text-gray-400 mt-1 uppercase">Verifica disponibilità bobine</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-gray-300"></i>
+                </button>
+            </div>
+
+            <div class="pt-6 border-t border-gray-100">
+                <p class="text-[10px] text-gray-400 text-center uppercase tracking-widest leading-relaxed">
+                    Accesso riservato personale autorizzato<br>
+                    Ultimo aggiornamento: <span id="last-update" class="font-bold">--:--</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Funzione di test per verificare se il JSON esiste nella cartella data
+        async function checkData() {
+            const statusIcon = document.getElementById('status-icon');
+            const statusText = document.getElementById('status-text');
+            const lastUpdate = document.getElementById('last-update');
+
+            try {
+                // Cerchiamo il file bobine.json (o cambialo con il nome reale del tuo file)
+                const response = await fetch('data/bobine.json?v=' + Date.now());
+                if (response.ok) {
+                    statusIcon.classList.remove('bg-yellow-400', 'animate-pulse');
+                    statusIcon.classList.add('bg-green-500');
+                    statusText.innerText = "ONLINE";
+                    statusText.classList.add('text-green-600');
+                    lastUpdate.innerText = new Date().toLocaleTimeString();
+                    alert("✅ Dati caricati correttamente! Pronto per la consultazione.");
+                } else {
+                    throw new Error();
+                }
+            } catch (err) {
+                statusIcon.classList.remove('bg-yellow-400', 'animate-pulse');
+                statusIcon.classList.add('bg-red-500');
+                statusText.innerText = "Dati Mancanti";
+                statusText.classList.add('text-red-600');
+                alert("❌ Errore: Il file JSON non è stato trovato nella cartella /data.");
+            }
+        }
+
+        // Avvia il controllo automatico al caricamento
+        window.onload = checkData;
+    </script>
+</body>
+</html>
