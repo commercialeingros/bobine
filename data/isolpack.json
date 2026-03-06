@@ -1,0 +1,1002 @@
+﻿[
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1090,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3138,
+        "qta_impegnata_ml":  354,
+        "giacenza_codice_fornitore":  "IS-3316"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1090,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  2860,
+        "qta_impegnata_ml":  363,
+        "giacenza_codice_fornitore":  "IS-4918"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4427,
+        "qta_impegnata_ml":  389,
+        "giacenza_codice_fornitore":  "IS-3467"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1130,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  2948,
+        "qta_impegnata_ml":  182,
+        "giacenza_codice_fornitore":  "IS-4469"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  1892,
+        "qta_impegnata_ml":  471,
+        "giacenza_codice_fornitore":  "IS-8613"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  4547,
+        "qta_impegnata_ml":  237,
+        "giacenza_codice_fornitore":  "IS-3906"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  662,
+        "qta_impegnata_ml":  56,
+        "giacenza_codice_fornitore":  "IS-1507"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1090,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3766,
+        "qta_impegnata_ml":  235,
+        "giacenza_codice_fornitore":  "IS-5259"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  1640,
+        "qta_impegnata_ml":  370,
+        "giacenza_codice_fornitore":  "IS-1947"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3483,
+        "qta_impegnata_ml":  301,
+        "giacenza_codice_fornitore":  "IS-6801"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  4030,
+        "qta_impegnata_ml":  279,
+        "giacenza_codice_fornitore":  "IS-5598"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  668,
+        "qta_impegnata_ml":  446,
+        "giacenza_codice_fornitore":  "IS-7684"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4389,
+        "qta_impegnata_ml":  353,
+        "giacenza_codice_fornitore":  "IS-3524"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  3054,
+        "qta_impegnata_ml":  280,
+        "giacenza_codice_fornitore":  "IS-6574"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1125,
+        "qta_impegnata_ml":  54,
+        "giacenza_codice_fornitore":  "IS-9319"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2148,
+        "qta_impegnata_ml":  341,
+        "giacenza_codice_fornitore":  "IS-8936"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1130,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4893,
+        "qta_impegnata_ml":  227,
+        "giacenza_codice_fornitore":  "IS-6028"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1235,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  3859,
+        "qta_impegnata_ml":  439,
+        "giacenza_codice_fornitore":  "IS-9047"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1181,
+        "qta_impegnata_ml":  21,
+        "giacenza_codice_fornitore":  "IS-4704"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1235,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  1695,
+        "qta_impegnata_ml":  405,
+        "giacenza_codice_fornitore":  "IS-9956"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1235,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  2933,
+        "qta_impegnata_ml":  290,
+        "giacenza_codice_fornitore":  "IS-4806"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  2218,
+        "qta_impegnata_ml":  357,
+        "giacenza_codice_fornitore":  "IS-2190"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4297,
+        "qta_impegnata_ml":  343,
+        "giacenza_codice_fornitore":  "IS-7686"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3266,
+        "qta_impegnata_ml":  281,
+        "giacenza_codice_fornitore":  "IS-3992"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  613,
+        "qta_impegnata_ml":  414,
+        "giacenza_codice_fornitore":  "IS-3015"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4306,
+        "qta_impegnata_ml":  193,
+        "giacenza_codice_fornitore":  "IS-4576"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4488,
+        "qta_impegnata_ml":  262,
+        "giacenza_codice_fornitore":  "IS-7626"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1543,
+        "qta_impegnata_ml":  66,
+        "giacenza_codice_fornitore":  "IS-5689"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1235,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  707,
+        "qta_impegnata_ml":  39,
+        "giacenza_codice_fornitore":  "IS-9825"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  4079,
+        "qta_impegnata_ml":  112,
+        "giacenza_codice_fornitore":  "IS-7597"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1090,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2558,
+        "qta_impegnata_ml":  300,
+        "giacenza_codice_fornitore":  "IS-2067"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  2103,
+        "qta_impegnata_ml":  115,
+        "giacenza_codice_fornitore":  "IS-5846"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  2520,
+        "qta_impegnata_ml":  22,
+        "giacenza_codice_fornitore":  "IS-3830"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1090,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  1901,
+        "qta_impegnata_ml":  268,
+        "giacenza_codice_fornitore":  "IS-3565"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3304,
+        "qta_impegnata_ml":  396,
+        "giacenza_codice_fornitore":  "IS-8874"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  776,
+        "qta_impegnata_ml":  220,
+        "giacenza_codice_fornitore":  "IS-2817"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  4908,
+        "qta_impegnata_ml":  108,
+        "giacenza_codice_fornitore":  "IS-5128"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2642,
+        "qta_impegnata_ml":  161,
+        "giacenza_codice_fornitore":  "IS-5151"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1090,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  1539,
+        "qta_impegnata_ml":  363,
+        "giacenza_codice_fornitore":  "IS-3304"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  279,
+        "qta_impegnata_ml":  166,
+        "giacenza_codice_fornitore":  "IS-5091"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  3122,
+        "qta_impegnata_ml":  184,
+        "giacenza_codice_fornitore":  "IS-1894"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  2584,
+        "qta_impegnata_ml":  289,
+        "giacenza_codice_fornitore":  "IS-8407"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3051,
+        "qta_impegnata_ml":  331,
+        "giacenza_codice_fornitore":  "IS-9853"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2774,
+        "qta_impegnata_ml":  126,
+        "giacenza_codice_fornitore":  "IS-1038"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  332,
+        "qta_impegnata_ml":  443,
+        "giacenza_codice_fornitore":  "IS-7347"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  286,
+        "qta_impegnata_ml":  323,
+        "giacenza_codice_fornitore":  "IS-6762"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  3373,
+        "qta_impegnata_ml":  245,
+        "giacenza_codice_fornitore":  "IS-2433"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  2834,
+        "qta_impegnata_ml":  249,
+        "giacenza_codice_fornitore":  "IS-1288"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1062,
+        "qta_impegnata_ml":  246,
+        "giacenza_codice_fornitore":  "IS-3098"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1130,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2157,
+        "qta_impegnata_ml":  112,
+        "giacenza_codice_fornitore":  "IS-3016"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  377,
+        "qta_impegnata_ml":  211,
+        "giacenza_codice_fornitore":  "IS-9473"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1235,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  3863,
+        "qta_impegnata_ml":  98,
+        "giacenza_codice_fornitore":  "IS-7353"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  1634,
+        "qta_impegnata_ml":  142,
+        "giacenza_codice_fornitore":  "IS-7578"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  4241,
+        "qta_impegnata_ml":  299,
+        "giacenza_codice_fornitore":  "IS-2982"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  4028,
+        "qta_impegnata_ml":  354,
+        "giacenza_codice_fornitore":  "IS-8135"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  823,
+        "qta_impegnata_ml":  50,
+        "giacenza_codice_fornitore":  "IS-2169"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  4937,
+        "qta_impegnata_ml":  190,
+        "giacenza_codice_fornitore":  "IS-4877"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1866,
+        "qta_impegnata_ml":  391,
+        "giacenza_codice_fornitore":  "IS-1455"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  229,
+        "qta_impegnata_ml":  368,
+        "giacenza_codice_fornitore":  "IS-9760"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  4782,
+        "qta_impegnata_ml":  6,
+        "giacenza_codice_fornitore":  "IS-8133"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  3221,
+        "qta_impegnata_ml":  0,
+        "giacenza_codice_fornitore":  "IS-5116"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  4655,
+        "qta_impegnata_ml":  92,
+        "giacenza_codice_fornitore":  "IS-1452"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4803,
+        "qta_impegnata_ml":  303,
+        "giacenza_codice_fornitore":  "IS-3627"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  454,
+        "qta_impegnata_ml":  379,
+        "giacenza_codice_fornitore":  "IS-1293"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4882,
+        "qta_impegnata_ml":  476,
+        "giacenza_codice_fornitore":  "IS-9389"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1235,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  3175,
+        "qta_impegnata_ml":  200,
+        "giacenza_codice_fornitore":  "IS-5812"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1235,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  1738,
+        "qta_impegnata_ml":  393,
+        "giacenza_codice_fornitore":  "IS-4636"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1235,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  2532,
+        "qta_impegnata_ml":  88,
+        "giacenza_codice_fornitore":  "IS-5257"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4595,
+        "qta_impegnata_ml":  156,
+        "giacenza_codice_fornitore":  "IS-6002"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1090,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3877,
+        "qta_impegnata_ml":  115,
+        "giacenza_codice_fornitore":  "IS-3536"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  3587,
+        "qta_impegnata_ml":  409,
+        "giacenza_codice_fornitore":  "IS-2775"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1055,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  2163,
+        "qta_impegnata_ml":  111,
+        "giacenza_codice_fornitore":  "IS-5660"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1090,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4583,
+        "qta_impegnata_ml":  321,
+        "giacenza_codice_fornitore":  "IS-7271"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  4610,
+        "qta_impegnata_ml":  278,
+        "giacenza_codice_fornitore":  "IS-9230"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1235,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  316,
+        "qta_impegnata_ml":  454,
+        "giacenza_codice_fornitore":  "IS-9405"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1130,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  2155,
+        "qta_impegnata_ml":  208,
+        "giacenza_codice_fornitore":  "IS-7439"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  4426,
+        "qta_impegnata_ml":  419,
+        "giacenza_codice_fornitore":  "IS-4886"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1130,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4130,
+        "qta_impegnata_ml":  133,
+        "giacenza_codice_fornitore":  "IS-5089"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1090,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  1560,
+        "qta_impegnata_ml":  171,
+        "giacenza_codice_fornitore":  "IS-1587"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1090,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  1338,
+        "qta_impegnata_ml":  375,
+        "giacenza_codice_fornitore":  "IS-2657"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  1973,
+        "qta_impegnata_ml":  335,
+        "giacenza_codice_fornitore":  "IS-5524"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1055,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  2358,
+        "qta_impegnata_ml":  384,
+        "giacenza_codice_fornitore":  "IS-6892"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1235,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  275,
+        "qta_impegnata_ml":  162,
+        "giacenza_codice_fornitore":  "IS-7356"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  122,
+        "qta_impegnata_ml":  295,
+        "giacenza_codice_fornitore":  "IS-7527"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "ROSSO SIENA",
+        "larghezza":  1055,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  1407,
+        "qta_impegnata_ml":  28,
+        "giacenza_codice_fornitore":  "IS-1578"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  1221,
+        "qta_impegnata_ml":  396,
+        "giacenza_codice_fornitore":  "IS-8292"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1090,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  4734,
+        "qta_impegnata_ml":  469,
+        "giacenza_codice_fornitore":  "IS-2870"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  3796,
+        "qta_impegnata_ml":  338,
+        "giacenza_codice_fornitore":  "IS-8227"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1130,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3265,
+        "qta_impegnata_ml":  343,
+        "giacenza_codice_fornitore":  "IS-7517"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "TESTA DI MORO",
+        "larghezza":  1130,
+        "spessore":  "SP. 5/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  1461,
+        "qta_impegnata_ml":  435,
+        "giacenza_codice_fornitore":  "IS-6171"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  903,
+        "qta_impegnata_ml":  418,
+        "giacenza_codice_fornitore":  "IS-8278"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  877,
+        "qta_impegnata_ml":  70,
+        "giacenza_codice_fornitore":  "IS-6949"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "VERDE MUSCHIO",
+        "larghezza":  1130,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  2287,
+        "qta_impegnata_ml":  114,
+        "giacenza_codice_fornitore":  "IS-6874"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1055,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  3798,
+        "qta_impegnata_ml":  145,
+        "giacenza_codice_fornitore":  "IS-6304"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1090,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIESTERE STAND.",
+        "qta_giacenza_ml":  1712,
+        "qta_impegnata_ml":  128,
+        "giacenza_codice_fornitore":  "IS-9582"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1090,
+        "spessore":  "SP. 8/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2441,
+        "qta_impegnata_ml":  30,
+        "giacenza_codice_fornitore":  "IS-1915"
+    },
+    {
+        "descrizione_tipo_materiale":  "ALLUMINIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1130,
+        "spessore":  "SP. 4/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  163,
+        "qta_impegnata_ml":  293,
+        "giacenza_codice_fornitore":  "IS-4523"
+    },
+    {
+        "descrizione_tipo_materiale":  "ACCIAIO",
+        "descrizione_colore":  "GRIGIO ANTRACITE",
+        "larghezza":  1090,
+        "spessore":  "SP. 10/10",
+        "tipo_verniciatura":  "POLIAMMIDICO",
+        "qta_giacenza_ml":  2997,
+        "qta_impegnata_ml":  183,
+        "giacenza_codice_fornitore":  "IS-1700"
+    },
+    {
+        "descrizione_tipo_materiale":  "INOX",
+        "descrizione_colore":  "NATURALE",
+        "larghezza":  1055,
+        "spessore":  "SP. 6/10",
+        "tipo_verniciatura":  "PVDF",
+        "qta_giacenza_ml":  4610,
+        "qta_impegnata_ml":  93,
+        "giacenza_codice_fornitore":  "IS-1562"
+    },
+    {
+        "descrizione_tipo_materiale":  "RAME",
+        "descrizione_colore":  "BIANCO GRIGIO",
+        "larghezza":  1235,
+        "spessore":  "SP. 3/10",
+        "tipo_verniciatura":  "SPECIAL",
+        "qta_giacenza_ml":  3373,
+        "qta_impegnata_ml":  245,
+        "giacenza_codice_fornitore":  "IS-6594"
+    }
+]
