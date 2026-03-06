@@ -87,61 +87,57 @@
         let activeCompany = 'Tutte';
 
         async function init() {
-            let combined = [];
-            const container = document.getElementById('tab-container');
-            if (!container) return;
+    let combined = [];
+    const container = document.getElementById('tab-container');
+    if (!container) return;
 
-            try {
-                // 1. LEGGE IL FILE DI CONFIGURAZIONE ESTERNO
-                const configRes = await fetch(`config.json?v=${new Date().getTime()}`);
-                if (!configRes.ok) throw new Error("File config.json non trovato");
-            
-                const config = await configRes.json();
-                const aziendeDaCaricare = config.aziende_attive;
-
-                // 2. RESET TAB
-                container.innerHTML = `<button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-1 uppercase tracking-widest whitespace-nowrap">Tutte le Aziende</button>`;
-
-                // 3. CARICA SOLO LE AZIENDE PRESENTI NEL CONFIG
-                for (const az of aziendeDaCaricare) {
-                    try {
-                        const response = await fetch(`data/${az.toLowerCase()}.json?v=${new Date().getTime()}`);
-                        if (response.ok) {
-                            const json = await response.json();
-                            if (Array.isArray(json)) {
-                                const mapped = json.map(i => {
-                                // 1. Creiamo la variabile 'spessoreTesto' prendendo il dato dal JSON
-                                const spessoreTesto = i.spessore ? String(i.spessore).trim() : "-";
-                                // 2. Ritorniamo l'oggetto includendo lo spessore come testo
-                                return { 
-                                    ...i, 
-                                    azienda: az.toUpperCase(), 
-                                    spessore: spessoreTesto 
-                                };
-                                });
-                            combined = combined.concat(mapped);
-                            addTab(az);
-                            }
-                        }
-                    } catch (e) {
-                        console.error(`Errore nel caricamento dei dati per ${az}:`, e);
-                    }
-                }    
-            
-                fullData = combined;
-                populateFilters();
-                render();
-
-            } catch (err) {
-                console.error("Errore configurazione:", err);
-                // Se il config fallisce, mostriamo un messaggio all'utente
-                container.innerHTML = `<span class="text-red-500 text-[10px]">Errore caricamento configurazione</span>`;
-            }
+    try {
+        // Carichiamo la configurazione
+        const configRes = await fetch(`config.json?v=${new Date().getTime()}`);
+        if (!configRes.ok) throw new Error("Config mancante");
         
-            const loader = document.getElementById('loader');
-            if (loader) loader.style.display = 'none';
-        }
+        const config = await configRes.json();
+        const aziendeDaCaricare = config.aziende_attive;
 
+        container.innerHTML = `<button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-1 uppercase tracking-widest whitespace-nowrap">Tutte le Aziende</button>`;
+
+        for (const az of aziendeDaCaricare) {
+            try {
+                const response = await fetch(`data/${az.toLowerCase()}.json?v=${new Date().getTime()}`);
+                
+                if (response.ok) {
+                    const json = await response.json();
+                    if (Array.isArray(json)) {
+                        const mapped = json.map(i => {
+                            // TRATTAMENTO SPESSORE: lo leggiamo come testo puro
+                            // Gestisce correttamente "SP. 5/10", "0.5", ecc.
+                            const valoreSpessore = i.spessore ? String(i.spessore).trim() : "-";
+                            
+                            return { 
+                                ...i, 
+                                azienda: az.toUpperCase(), 
+                                spessore: valoreSpessore // Assegnazione corretta
+                            };
+                        });
+                        combined = combined.concat(mapped);
+                        addTab(az);
+                    }
+                }
+            } catch (e) {
+                console.error(`Errore caricamento ${az}:`, e);
+            }
+        }
+        
+        fullData = combined;
+        populateFilters();
+        render();
+
+    } catch (err) {
+        console.error("Errore generale:", err);
+    }
+    
+    if (document.getElementById('loader')) document.getElementById('loader').style.display = 'none';
+}
         function addTab(az) {
             const container = document.getElementById('tab-container');
             const btn = document.createElement('button');
