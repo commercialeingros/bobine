@@ -7,7 +7,7 @@
         "tipo_verniciatura":  "POLIESTERE",
         "qta_giacenza_ml":  4405,
         "qta_impegnata_ml":  247,
-        "giacenza_codice_fornitore":  "RWP-8109","RWP-8001","RWP-8002"
+        "giacenza_codice_fornitore":  "RWP-8109,RWP-8001,RWP-8002"
     },
     {
         "descrizione_tipo_materiale":  "ACCIAIO",
