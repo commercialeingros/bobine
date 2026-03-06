@@ -8,78 +8,93 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .azienda-tab.active { border-bottom: 4px solid #ef4444; color: #ef4444; font-weight: bold; }
+        .desktop-table { display: table; }
         .card-mobile { display: none; }
         @media (max-width: 768px) {
             .desktop-table { display: none; }
             .card-mobile { display: block; }
         }
         .collapsible-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
-        .open .collapsible-content { max-height: 200px; }
+        .open .collapsible-content { max-height: 500px; }
         .open .arrow-icon { transform: rotate(180deg); }
+        .azienda-tag { font-size: 0.6rem; padding: 2px 5px; border-radius: 4px; text-transform: uppercase; font-weight: bold; margin-bottom: 4px; display: inline-block; }
+        .bg-ingros { background: #ef4444; color: white; }
+        .bg-rwp { background: #3b82f6; color: white; }
+        .bg-isolpack { background: #10b981; color: white; }
+        .bg-isotecnica { background: #f59e0b; color: white; }
+        .bg-isometal { background: #8b5cf6; color: white; }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen pb-10">
+<body class="bg-gray-100 min-h-screen pb-10">
 
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center h-16 border-b">
-                <span class="text-xl font-black text-slate-800 tracking-tighter">BOBINE<span class="text-red-600">HUB</span></span>
-                <div id="tab-container" class="flex space-x-6 h-full items-center text-sm font-medium text-gray-500 overflow-x-auto no-scrollbar">
+                <span class="text-xl font-black text-slate-800 tracking-tighter uppercase italic">Giacenze<span class="text-red-600">Bobine</span></span>
+                <div id="tab-container" class="flex space-x-4 h-full items-center text-sm font-medium text-gray-500 overflow-x-auto no-scrollbar">
+                    <button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-2 uppercase tracking-widest">Tutte</button>
                     </div>
             </div>
             
-            <div class="py-3 flex flex-wrap gap-2">
-                <select id="fMat" onchange="applyFilters()" class="bg-gray-100 border-none rounded-lg text-xs p-2 focus:ring-2 focus:ring-red-500 outline-none">
-                    <option value="">Tutti i Materiali</option>
-                </select>
-                <select id="fCol" onchange="applyFilters()" class="bg-gray-100 border-none rounded-lg text-xs p-2 focus:ring-2 focus:ring-red-500 outline-none">
-                    <option value="">Tutti i Colori</option>
-                </select>
-                <select id="fMis" onchange="applyFilters()" class="bg-gray-100 border-none rounded-lg text-xs p-2 focus:ring-2 focus:ring-red-500 outline-none">
-                    <option value="">Spessore/Larghezza</option>
-                </select>
+            <div class="py-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="flex flex-col">
+                    <label class="text-[10px] font-bold text-gray-400 uppercase ml-1 mb-1">Materiale</label>
+                    <select id="fMat" onchange="applyFilters()" class="bg-gray-50 border border-gray-200 rounded-lg text-xs p-2.5 focus:ring-2 focus:ring-red-500 outline-none"></select>
+                </div>
+                <div class="flex flex-col">
+                    <label class="text-[10px] font-bold text-gray-400 uppercase ml-1 mb-1">Colore</label>
+                    <select id="fCol" onchange="applyFilters()" class="bg-gray-50 border border-gray-200 rounded-lg text-xs p-2.5 focus:ring-2 focus:ring-red-500 outline-none"></select>
+                </div>
+                <div class="flex flex-col">
+                    <label class="text-[10px] font-bold text-gray-400 uppercase ml-1 mb-1">Larghezza</label>
+                    <select id="fLar" onchange="applyFilters()" class="bg-gray-50 border border-gray-200 rounded-lg text-xs p-2.5 focus:ring-2 focus:ring-red-500 outline-none"></select>
+                </div>
+                <div class="flex flex-col">
+                    <label class="text-[10px] font-bold text-gray-400 uppercase ml-1 mb-1">Spessore</label>
+                    <select id="fSpe" onchange="applyFilters()" class="bg-gray-50 border border-gray-200 rounded-lg text-xs p-2.5 focus:ring-2 focus:ring-red-500 outline-none"></select>
+                </div>
             </div>
         </div>
     </nav>
 
     <main class="max-w-7xl mx-auto p-4">
-        <div class="desktop-table bg-white rounded-xl shadow-sm overflow-hidden border">
+        <div class="desktop-table w-full bg-white rounded-xl shadow-sm overflow-hidden border">
             <table class="w-full text-left">
-                <thead class="bg-slate-50 border-b text-[10px] uppercase font-bold text-slate-400">
+                <thead class="bg-slate-800 text-white text-[10px] uppercase font-bold tracking-widest">
                     <tr>
-                        <th class="p-4">Dettaglio Materiale</th>
-                        <th class="p-4">Misure</th>
-                        <th class="p-4 text-center">Giacenza (ML)</th>
-                        <th class="p-4">Fornitori / Lotti</th>
+                        <th class="p-4">Azienda / Materiale</th>
+                        <th class="p-4 text-center">Larg x Spes</th>
+                        <th class="p-4 text-center">Giacenza ML</th>
+                        <th class="p-4">Dettaglio Lotti Fornitore</th>
                     </tr>
                 </thead>
-                <tbody id="main-tbody" class="divide-y text-sm"></tbody>
+                <tbody id="main-tbody" class="divide-y text-sm italic"></tbody>
             </table>
         </div>
 
         <div id="mobile-container" class="card-mobile space-y-3"></div>
-
-        <div id="loader" class="text-center py-20">
-            <i class="fa-solid fa-circle-notch animate-spin text-3xl text-red-500"></i>
-        </div>
+        <div id="loader" class="text-center py-20"><i class="fa-solid fa-spinner animate-spin text-3xl text-red-500"></i></div>
     </main>
 
     <script>
-        let fullData = {};
-        let activeCompany = '';
+        let fullData = []; 
+        let activeCompany = 'Tutte';
         const nomiAziende = ['ingros', 'rwp', 'isolpack', 'isotecnica', 'isometal'];
 
         async function init() {
+            let combined = [];
             for (const az of nomiAziende) {
                 try {
                     const res = await fetch(`data/${az}.json?v=${Date.now()}`);
                     if (res.ok) {
-                        fullData[az] = await res.json();
-                        if (!activeCompany) activeCompany = az;
+                        const json = await res.json();
+                        const mapped = json.map(i => ({ ...i, azienda: az.toUpperCase() }));
+                        combined = combined.concat(mapped);
                         addTab(az);
                     }
-                } catch (e) { console.log(az + " non trovato"); }
+                } catch (e) { console.log(az + " non caricato"); }
             }
+            fullData = combined;
             populateFilters();
             render();
             document.getElementById('loader').remove();
@@ -88,114 +103,124 @@
         function addTab(az) {
             const container = document.getElementById('tab-container');
             const btn = document.createElement('button');
-            btn.className = `azienda-tab h-full px-2 uppercase tracking-widest ${activeCompany === az ? 'active' : ''}`;
+            btn.id = `tab-${az}`;
+            btn.className = "azienda-tab h-full px-2 uppercase tracking-widest";
             btn.innerText = az;
-            btn.onclick = (e) => {
-                document.querySelectorAll('.azienda-tab').forEach(t => t.classList.remove('active'));
-                e.target.classList.add('active');
-                activeCompany = az;
-                populateFilters();
-                render();
-            };
+            btn.onclick = () => changeCompany(az);
             container.appendChild(btn);
         }
 
-        function populateFilters() {
-            const data = fullData[activeCompany] || [];
-            const mats = [...new Set(data.map(i => i.descrizione_tipo_materiale))].sort();
-            const cols = [...new Set(data.map(i => i.descrizione_colore))].sort();
-            
-            updateSelect('fMat', mats);
-            updateSelect('fCol', cols);
+        function changeCompany(az) {
+            activeCompany = az === 'Tutte' ? 'Tutte' : az.toUpperCase();
+            document.querySelectorAll('.azienda-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById(az === 'Tutte' ? 'tab-tutte' : `tab-${az.toLowerCase()}`).classList.add('active');
+            render();
         }
 
-        function updateSelect(id, list) {
+        function populateFilters() {
+            const mats = [...new Set(fullData.map(i => i.descrizione_tipo_materiale))].sort();
+            const cols = [...new Set(fullData.map(i => i.descrizione_colore))].sort();
+            const lars = [...new Set(fullData.map(i => i.larghezza))].sort((a,b)=>a-b);
+            const spes = [...new Set(fullData.map(i => i.spessore))].sort();
+
+            fillSelect('fMat', mats, 'Tutti i Materiali');
+            fillSelect('fCol', cols, 'Tutti i Colori');
+            fillSelect('fLar', lars, 'Tutte le Larghezze');
+            fillSelect('fSpe', spes, 'Tutti gli Spessori');
+        }
+
+        function fillSelect(id, list, placeholder) {
             const s = document.getElementById(id);
-            s.innerHTML = `<option value="">Tutti</option>` + list.map(v => `<option value="${v}">${v}</option>`).join('');
+            s.innerHTML = `<option value="">${placeholder}</option>` + list.map(v => `<option value="${v}">${v}</option>`).join('');
         }
 
         function render() {
-            const data = (fullData[activeCompany] || []).filter(item => {
-                const m = document.getElementById('fMat').value;
-                const c = document.getElementById('fCol').value;
-                return (!m || item.descrizione_tipo_materiale === m) && (!c || item.descrizione_colore === c);
+            const fMat = document.getElementById('fMat').value;
+            const fCol = document.getElementById('fCol').value;
+            const fLar = document.getElementById('fLar').value;
+            const fSpe = document.getElementById('fSpe').value;
+
+            const filtered = fullData.filter(i => {
+                const matchAz = activeCompany === 'Tutte' || i.azienda === activeCompany;
+                const matchMat = !fMat || i.descrizione_tipo_materiale === fMat;
+                const matchCol = !fCol || i.descrizione_colore === fCol;
+                const matchLar = !fLar || String(i.larghezza) === fLar;
+                const matchSpe = !fSpe || String(i.spessore) === fSpe;
+                return matchAz && matchMat && matchCol && matchLar && matchSpe;
             });
 
             const tbody = document.getElementById('main-tbody');
             const mobile = document.getElementById('mobile-container');
             tbody.innerHTML = ''; mobile.innerHTML = '';
 
-            data.forEach((item, idx) => {
-                const fornitoreData = formatFornitori(item.giacenza_codice_fornitore);
+            filtered.forEach(item => {
+                const lotti = formatLotti(item.giacenza_codice_fornitore);
                 
-                // Render Desktop
+                // DESKTOP
                 tbody.innerHTML += `
-                    <tr class="hover:bg-gray-50">
+                    <tr class="hover:bg-red-50/50">
                         <td class="p-4">
+                            <span class="azienda-tag bg-${item.azienda.toLowerCase()}">${item.azienda}</span>
                             <div class="font-bold text-slate-800">${item.descrizione_tipo_materiale}</div>
-                            <div class="text-xs text-gray-500">${item.descrizione_colore} <span class="text-[10px] bg-gray-100 px-1 rounded">${item.tipo_verniciatura}</span></div>
+                            <div class="text-[10px] text-gray-500 uppercase">${item.descrizione_colore} (${item.tipo_verniciatura})</div>
                         </td>
-                        <td class="p-4 font-mono text-xs">${item.larghezza} x ${item.spessore}</td>
+                        <td class="p-4 text-center font-mono text-xs">${item.larghezza} x ${item.spessore}</td>
                         <td class="p-4 text-center">
-                            <div class="font-bold text-blue-600">${item.qta_giacenza_ml}</div>
-                            <div class="text-[10px] text-red-400">Imp: ${item.qta_impegnata_ml}</div>
+                            <div class="font-bold text-blue-700 text-base">${item.qta_giacenza_ml}</div>
+                            <div class="text-[9px] text-red-400">IMPEGNATO: ${item.qta_impegnata_ml}</div>
                         </td>
                         <td class="p-4">
-                            <div onclick="this.parentElement.classList.toggle('open')" class="cursor-pointer group">
-                                <span class="text-xs bg-slate-100 px-2 py-1 rounded border">
-                                    ${fornitoreData.primo} ${fornitoreData.extra > 0 ? `<span class="text-red-500 font-bold">+${fornitoreData.extra}</span>` : ''}
-                                    <i class="fa-solid fa-chevron-down ml-2 arrow-icon transition-transform"></i>
+                            <div onclick="this.parentElement.classList.toggle('open')" class="cursor-pointer">
+                                <span class="bg-gray-100 px-2 py-1 rounded border text-[11px] font-bold text-slate-600">
+                                    ${lotti.primo} ${lotti.extra > 0 ? `<span class="text-red-500 ml-1">+${lotti.extra}</span>` : ''}
+                                    <i class="fa-solid fa-chevron-down ml-1 arrow-icon transition-transform"></i>
                                 </span>
-                                <div class="collapsible-content text-[11px] mt-2 space-y-1 text-gray-500">
-                                    ${fornitoreData.tutti.map(f => `<div><i class="fa-solid fa-box mr-1"></i> ${f}</div>`).join('')}
+                                <div class="collapsible-content mt-2 space-y-1">
+                                    ${lotti.tutti.map(l => `<div class="text-[10px] bg-slate-50 p-1 border-b"><i class="fa-solid fa-barcode mr-1"></i> ${l}</div>`).join('')}
                                 </div>
                             </div>
                         </td>
                     </tr>`;
 
-                // Render Mobile
+                // MOBILE
                 mobile.innerHTML += `
-                    <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 border-red-500">
+                    <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 border-slate-800">
                         <div class="flex justify-between items-start mb-2">
                             <div>
-                                <div class="font-black text-slate-800 uppercase text-base">${item.descrizione_tipo_materiale}</div>
-                                <div class="text-sm text-gray-600 font-medium">${item.descrizione_colore}</div>
+                                <span class="azienda-tag bg-${item.azienda.toLowerCase()}">${item.azienda}</span>
+                                <div class="font-black text-slate-800 text-lg">${item.descrizione_tipo_materiale}</div>
+                                <div class="text-xs text-slate-600 uppercase">${item.descrizione_colore}</div>
                             </div>
                             <div class="text-right">
-                                <div class="text-lg font-black text-blue-600">${item.qta_giacenza_ml}</div>
-                                <div class="text-[10px] uppercase font-bold text-gray-400 px-1 border rounded">ML DISP.</div>
+                                <div class="text-xl font-black text-blue-700">${item.qta_giacenza_ml}</div>
+                                <div class="text-[9px] font-bold text-gray-400 uppercase">Metri Disponibili</div>
                             </div>
                         </div>
-                        <div class="flex gap-4 text-xs text-gray-500 mb-3 font-mono bg-gray-50 p-2 rounded">
-                            <span>Larg: ${item.larghezza}</span> <span>Spessore: ${item.spessore}</span>
+                        <div class="grid grid-cols-2 gap-2 text-[11px] bg-gray-50 p-2 rounded mb-3">
+                            <div><span class="text-gray-400">LAR:</span> ${item.larghezza}</div>
+                            <div><span class="text-gray-400">SPE:</span> ${item.spessore}</div>
+                            <div class="col-span-2"><span class="text-gray-400">VERN:</span> ${item.tipo_verniciatura}</div>
                         </div>
                         <div onclick="this.classList.toggle('open')" class="border-t pt-2">
-                            <div class="flex justify-between items-center text-xs font-bold text-slate-400">
-                                <span>LOTTI FORNITORE (${fornitoreData.totali})</span>
+                            <div class="flex justify-between text-[10px] font-bold text-red-500 mb-2">
+                                <span>LOTTI (${lotti.totali})</span>
                                 <i class="fa-solid fa-chevron-down arrow-icon"></i>
                             </div>
-                            <div class="collapsible-content mt-2 grid grid-cols-2 gap-1 text-[10px]">
-                                ${fornitoreData.tutti.map(f => `<div class="bg-slate-50 p-1 rounded border font-mono">${f}</div>`).join('')}
+                            <div class="collapsible-content grid grid-cols-2 gap-1">
+                                ${lotti.tutti.map(l => `<div class="bg-white p-1 rounded border text-[10px] font-mono">${l}</div>`).join('')}
                             </div>
                         </div>
                     </div>`;
             });
         }
 
-        function formatFornitori(val) {
+        function formatLotti(val) {
             if (!val) return { primo: '-', extra: 0, tutti: [], totali: 0 };
-            // Gestisce sia array che stringhe separate da virgola
             const lista = Array.isArray(val) ? val : val.split(',').map(s => s.trim());
-            return {
-                primo: lista[0],
-                extra: lista.length - 1,
-                tutti: lista,
-                totali: lista.length
-            };
+            return { primo: lista[0], extra: lista.length - 1, tutti: lista, totali: lista.length };
         }
 
         function applyFilters() { render(); }
-
         window.onload = init;
     </script>
 </body>
