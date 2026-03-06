@@ -106,18 +106,21 @@
                 for (const az of aziendeDaCaricare) {
                     try {
                         const response = await fetch(`data/${az.toLowerCase()}.json?v=${new Date().getTime()}`);
-                    
                         if (response.ok) {
                             const json = await response.json();
                             if (Array.isArray(json)) {
                                 const mapped = json.map(i => {
-                                    // Normalizzazione spessore (gestisce "5/10" -> "0.5")
-                                   spessore: i.spessore ? String(i.spessore).trim() : "-"
-                                    
-                                    return { ...i, azienda: az.toUpperCase(), spessore };
+                                // 1. Creiamo la variabile 'spessoreTesto' prendendo il dato dal JSON
+                                const spessoreTesto = i.spessore ? String(i.spessore).trim() : "-";
+                                // 2. Ritorniamo l'oggetto includendo lo spessore come testo
+                                return { 
+                                    ...i, 
+                                    azienda: az.toUpperCase(), 
+                                    spessore: spessoreTesto 
+                                };
                                 });
-                                combined = combined.concat(mapped);
-                                addTab(az);
+                            combined = combined.concat(mapped);
+                            addTab(az);
                             }
                         }
                     } catch (e) {
