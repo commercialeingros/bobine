@@ -92,31 +92,31 @@
     if (!container) return;
 
     try {
-        // Carichiamo la configurazione
-        const configRes = await fetch(`config.json?v=${new Date().getTime()}`);
-        if (!configRes.ok) throw new Error("Config mancante");
-        
+        // Carica la configurazione
+        const configRes = await fetch(`config.json?v=${Date.now()}`);
+        if (!configRes.ok) throw new Error("Config non trovato");
         const config = await configRes.json();
         const aziendeDaCaricare = config.aziende_attive;
 
+        // Reset Header Tab
         container.innerHTML = `<button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-1 uppercase tracking-widest whitespace-nowrap">Tutte le Aziende</button>`;
 
+        // Caricamento dati
         for (const az of aziendeDaCaricare) {
             try {
-                const response = await fetch(`data/${az.toLowerCase()}.json?v=${new Date().getTime()}`);
-                
+                const response = await fetch(`data/${az.toLowerCase()}.json?v=${Date.now()}`);
                 if (response.ok) {
                     const json = await response.json();
                     if (Array.isArray(json)) {
-                        const mapped = json.map(i => {
-                            // TRATTAMENTO SPESSORE: lo leggiamo come testo puro
-                            // Gestisce correttamente "SP. 5/10", "0.5", ecc.
-                            const valoreSpessore = i.spessore ? String(i.spessore).trim() : "-";
+                        const mapped = json.map(item => {
+                            // Creiamo una variabile pulita per lo spessore
+                            const spessorePulito = item.spessore ? String(item.spessore).trim() : "-";
                             
+                            // Ritorniamo l'oggetto corretto
                             return { 
-                                ...i, 
+                                ...item, 
                                 azienda: az.toUpperCase(), 
-                                spessore: valoreSpessore // Assegnazione corretta
+                                spessore: spessorePulito 
                             };
                         });
                         combined = combined.concat(mapped);
@@ -124,7 +124,7 @@
                     }
                 }
             } catch (e) {
-                console.error(`Errore caricamento ${az}:`, e);
+                console.warn(`Salto ${az} per errore dati`);
             }
         }
         
@@ -133,11 +133,13 @@
         render();
 
     } catch (err) {
-        console.error("Errore generale:", err);
+        console.error("Errore Inizializzazione:", err);
     }
     
-    if (document.getElementById('loader')) document.getElementById('loader').style.display = 'none';
-}
+    const loader = document.getElementById('loader');
+    if (loader) loader.style.display = 'none';
+} // INIT
+        
         function addTab(az) {
             const container = document.getElementById('tab-container');
             const btn = document.createElement('button');
