@@ -112,12 +112,9 @@
                             if (Array.isArray(json)) {
                                 const mapped = json.map(i => {
                                     // Normalizzazione spessore (gestisce "5/10" -> "0.5")
-                                    let s = String(i.spessore);
-                                    if (s.includes('/')) {
-                                        const parti = s.split('/');
-                                        s = (parseFloat(parti[0]) / parseFloat(parti[1])).toString();
-                                    }
-                                    return { ...i, azienda: az.toUpperCase(), spessore: s };
+                                   spessore: i.spessore ? String(i.spessore).trim() : "-"
+                                    
+                                    return { ...i, azienda: az.toUpperCase(), spessore };
                                 });
                                 combined = combined.concat(mapped);
                                 addTab(az);
@@ -160,9 +157,13 @@
         }
 
         function populateFilters() {
+            if (!fullData.length) return;
+    
             const mats = [...new Set(fullData.map(i => i.descrizione_tipo_materiale))].filter(Boolean).sort();
             const cols = [...new Set(fullData.map(i => i.descrizione_colore))].filter(Boolean).sort();
-            const lars = [...new Set(fullData.map(i => i.larghezza))].filter(Boolean).sort((a,b)=>a-b);
+            const lars = [...new Set(fullData.map(i => String(i.larghezza)))].filter(Boolean).sort();
+    
+            // Ordinamento alfabetico semplice per lo spessore (testo)
             const spes = [...new Set(fullData.map(i => i.spessore))].filter(Boolean).sort();
 
             fillSelect('fMat', mats, 'Materiale');
@@ -171,9 +172,9 @@
             fillSelect('fSpe', spes, 'Spessore');
         }
 
-            function fillSelect(id, list, label) {
-            const s = document.getElementById(id);
-            s.innerHTML = `<option value="">Scegli ${label}...</option>` + list.map(v => `<option value="${v}">${v}</option>`).join('');
+        function fillSelect(id, list, label) {
+                const s = document.getElementById(id);
+                s.innerHTML = `<option value="">Scegli ${label}...</option>` + list.map(v => `<option value="${v}">${v}</option>`).join('');
         }
 
         function render() {
