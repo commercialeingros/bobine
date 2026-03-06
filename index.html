@@ -87,63 +87,65 @@
         let activeCompany = 'Tutte';
 
         async function init() {
-    let combined = [];
-    const container = document.getElementById('tab-container');
-    if (!container) return;
+            let combined = [];
+            const container = document.getElementById('tab-container');
+            const loader = document.getElementById('loader');
+            if (!container) return;
 
-    try {
-        // Carica la configurazione
-        const configRes = await fetch(`config.json?v=${Date.now()}`);
-        if (!configRes.ok) throw new Error("Config non trovato");
-        const config = await configRes.json();
-        const aziendeDaCaricare = config.aziende_attive;
-
-        // Reset Header Tab
-        container.innerHTML = `<button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-1 uppercase tracking-widest whitespace-nowrap">Tutte le Aziende</button>`;
-
-        // Caricamento dati
-        for (const az of aziendeDaCaricare) {
             try {
-                const response = await fetch(`data/${az.toLowerCase()}.json?v=${Date.now()}`);
-                if (response.ok) {
-                    const json = await response.json();
-                    if (Array.isArray(json)) {
-                        const mapped = json.map(item => {
-                            // Creiamo una variabile pulita per lo spessore
-                            const spessorePulito = item.spessore ? String(item.spessore).trim() : "-";
-                            
-                            // Ritorniamo l'oggetto corretto
-                            return { 
-                                ...item, 
-                                azienda: az.toUpperCase(), 
-                                spessore: spessorePulito 
-                            };
-                        });
-                        combined = combined.concat(mapped);
-                        addTab(az);
+                // Carichiamo la configurazione una volta sola con timestamp
+                const timestamp = Date.now();
+                const configRes = await fetch(`config.json?v=${timestamp}`);
+                if (!configRes.ok) throw new Error("Config non trovato");
+                const config = await configRes.json();
+                const aziendeDaCaricare = config.aziende_attive;
+
+                // Reset Tab
+                container.innerHTML = `<button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-1 uppercase tracking-widest whitespace-nowrap">Tutte le Aziende</button>`;
+
+                // Caricamento dati in parallelo (Molto più veloce)
+                const promises = aziendeDaCaricare.map(async (az) => {
+                    try {
+                        const response = await fetch(`data/${az.toLowerCase()}.json?v=${timestamp}`);
+                        if (response.ok) {
+                            const json = await response.json();
+                            if (Array.isArray(json)) {
+                                return json.map(item => ({
+                                    ...item,
+                                    azienda: az.toUpperCase(),
+                                    // Assicuriamoci che larghezza e spessore siano sempre stringhe pulite
+                                    larghezza: item.larghezza ? String(item.larghezza).trim() : "-",
+                                    spessore: item.spessore ? String(item.spessore).trim() : "-"
+                                }));
+                            }
+                        }
+                    } catch (e) { console.warn(`Errore file ${az}`); }
+                    return [];
+                });
+
+                const results = await Promise.all(promises);
+                results.forEach((data, index) => {
+                    if (data.length > 0) {
+                        combined = combined.concat(data);
+                        addTab(aziendeDaCaricare[index]);
                     }
-                }
-            } catch (e) {
-                console.warn(`Salto ${az} per errore dati`);
+                });
+                
+                fullData = combined;
+                populateFilters();
+                render();
+
+            } catch (err) {
+                console.error("Errore Inizializzazione:", err);
+            } finally {
+                if (loader) loader.style.display = 'none';
             }
         }
-        
-        fullData = combined;
-        populateFilters();
-        render();
 
-    } catch (err) {
-        console.error("Errore Inizializzazione:", err);
-    }
-    
-    const loader = document.getElementById('loader');
-    if (loader) loader.style.display = 'none';
-} // INIT
-        
         function addTab(az) {
             const container = document.getElementById('tab-container');
             const btn = document.createElement('button');
-            btn.id = `tab-${az}`;
+            btn.id = `tab-${az.toLowerCase()}`;
             btn.className = "azienda-tab h-full px-1 uppercase tracking-tighter whitespace-nowrap";
             btn.innerText = az;
             btn.onclick = () => changeCompany(az);
@@ -153,29 +155,27 @@
         function changeCompany(az) {
             activeCompany = az === 'Tutte' ? 'Tutte' : az.toUpperCase();
             document.querySelectorAll('.azienda-tab').forEach(t => t.classList.remove('active'));
-            document.getElementById(az === 'Tutte' ? 'tab-tutte' : `tab-${az.toLowerCase()}`).classList.add('active');
+            const targetId = az === 'Tutte' ? 'tab-tutte' : `tab-${az.toLowerCase()}`;
+            const targetBtn = document.getElementById(targetId);
+            if (targetBtn) targetBtn.classList.add('active');
             render();
         }
 
         function populateFilters() {
             if (!fullData.length) return;
-    
-            const mats = [...new Set(fullData.map(i => i.descrizione_tipo_materiale))].filter(Boolean).sort();
-            const cols = [...new Set(fullData.map(i => i.descrizione_colore))].filter(Boolean).sort();
-            const lars = [...new Set(fullData.map(i => String(i.larghezza)))].filter(Boolean).sort();
-    
-            // Ordinamento alfabetico semplice per lo spessore (testo)
-            const spes = [...new Set(fullData.map(i => i.spessore))].filter(Boolean).sort();
-
-            fillSelect('fMat', mats, 'Materiale');
-            fillSelect('fCol', cols, 'Colore');
-            fillSelect('fLar', lars, 'Larghezza');
-            fillSelect('fSpe', spes, 'Spessore');
+            const getUnique = (key) => [...new Set(fullData.map(i => i[key]))].filter(Boolean).sort();
+            
+            fillSelect('fMat', getUnique('descrizione_tipo_materiale'), 'Materiale');
+            fillSelect('fCol', getUnique('descrizione_colore'), 'Colore');
+            fillSelect('fLar', getUnique('larghezza'), 'Larghezza');
+            fillSelect('fSpe', getUnique('spessore'), 'Spessore');
         }
 
         function fillSelect(id, list, label) {
-                const s = document.getElementById(id);
-                s.innerHTML = `<option value="">Scegli ${label}...</option>` + list.map(v => `<option value="${v}">${v}</option>`).join('');
+            const s = document.getElementById(id);
+            if (!s) return;
+            s.innerHTML = `<option value="">Scegli ${label}...</option>` + 
+                          list.map(v => `<option value="${v}">${v}</option>`).join('');
         }
 
         function render() {
@@ -185,12 +185,11 @@
             const fSpe = document.getElementById('fSpe').value;
 
             const filtered = fullData.filter(i => {
-                const matchAz = activeCompany === 'Tutte' || i.azienda === activeCompany;
-                const matchMat = !fMat || i.descrizione_tipo_materiale === fMat;
-                const matchCol = !fCol || i.descrizione_colore === fCol;
-                const matchLar = !fLar || String(i.larghezza) === fLar;
-                const matchSpe = !fSpe || String(i.spessore) === fSpe;
-                return matchAz && matchMat && matchCol && matchLar && matchSpe;
+                return (activeCompany === 'Tutte' || i.azienda === activeCompany) &&
+                       (!fMat || i.descrizione_tipo_materiale === fMat) &&
+                       (!fCol || i.descrizione_colore === fCol) &&
+                       (!fLar || i.larghezza === fLar) &&
+                       (!fSpe || i.spessore === fSpe);
             });
 
             const tbody = document.getElementById('main-tbody');
@@ -201,8 +200,7 @@
                 const lotti = formatLotti(item.giacenza_codice_fornitore);
                 const azClass = `bg-${item.azienda.toLowerCase()}`;
                 
-                // DESKTOP
-                tbody.innerHTML += `
+                const htmlTable = `
                     <tr class="hover:bg-gray-50 transition-colors">
                         <td class="p-4">
                             <span class="azienda-tag ${azClass}">${item.azienda}</span>
@@ -212,7 +210,7 @@
                         <td class="p-4 text-center font-mono text-xs text-slate-600">${item.larghezza} x ${item.spessore}</td>
                         <td class="p-4 text-center">
                             <div class="font-black text-blue-600 text-base">${item.qta_giacenza_ml}</div>
-                            <div class="text-[9px] text-gray-400">IMPEGNATO: ${item.qta_impegnata_ml}</div>
+                            <div class="text-[9px] text-gray-400 uppercase">IMPEGNATO: ${item.qta_impegnata_ml}</div>
                         </td>
                         <td class="p-4">
                             <div onclick="this.parentElement.classList.toggle('open')" class="cursor-pointer">
@@ -226,9 +224,8 @@
                             </div>
                         </td>
                     </tr>`;
-
-                // MOBILE
-                mobile.innerHTML += `
+                
+                const htmlMobile = `
                     <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
                         <div class="h-1 ${azClass}"></div>
                         <div class="p-4">
@@ -259,17 +256,21 @@
                             </div>
                         </div>
                     </div>`;
+
+                tbody.insertAdjacentHTML('beforeend', htmlTable);
+                mobile.insertAdjacentHTML('beforeend', htmlMobile);
             });
         }
 
         function formatLotti(val) {
             if (!val) return { primo: '-', extra: 0, tutti: [], totali: 0 };
-            const lista = Array.isArray(val) ? val : val.split(',').map(s => s.trim());
+            const lista = Array.isArray(val) ? val : String(val).split(',').map(s => s.trim());
             return { primo: lista[0], extra: lista.length - 1, tutti: lista, totali: lista.length };
         }
 
         function applyFilters() { render(); }
         window.onload = init;
     </script>
+    
 </body>
 </html>
