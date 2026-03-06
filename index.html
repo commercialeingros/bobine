@@ -3,85 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingros - Gestione Bobine</title>
+    <title>Ricerca Giacenze Bobine - Multi Azienda</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .azienda-tag { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
+        .bg-ingros { background: #ef4444; color: white; }
+        .bg-rwp { background: #3b82f6; color: white; }
+        .bg-isolpack { background: #10b981; color: white; }
+        .bg-isotecnica { background: #f59e0b; color: white; }
+        .bg-isometal { background: #8b5cf6; color: white; }
+        select { cursor: pointer; }
+    </style>
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+<body class="bg-gray-100 min-h-screen">
 
-    <div class="max-w-md w-full bg-white rounded-3xl shadow-2xl overflow-hidden">
-        <div class="bg-red-600 p-8 text-center">
-            <div class="inline-block bg-white p-4 rounded-2xl shadow-inner mb-4">
-                <i class="fa-solid fa-scroll text-red-600 text-4xl"></i>
+    <nav class="bg-slate-900 text-white p-4 shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex flex-col md:row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-layer-group text-2xl text-red-500"></i>
+                <h1 class="text-xl font-bold tracking-tight uppercase">Giacenze Bobine</h1>
             </div>
-            <h1 class="text-white text-2xl font-black uppercase tracking-tight">Inventario Bobine</h1>
-            <p class="text-red-100 text-sm mt-1">Industria</p>
+            
+            <div class="flex flex-wrap justify-center gap-2" id="company-filters">
+                <button onclick="filterByCompany('Tutte')" id="btn-tutte" class="px-3 py-1 rounded-full bg-red-600 text-xs font-bold uppercase shadow-sm">Tutte</button>
+                <button onclick="filterByCompany('Ingros')" class="company-btn px-3 py-1 rounded-full bg-slate-700 text-xs font-bold uppercase hover:bg-slate-600">Ingros</button>
+                <button onclick="filterByCompany('RWP')" class="company-btn px-3 py-1 rounded-full bg-slate-700 text-xs font-bold uppercase hover:bg-slate-600">RWP</button>
+                <button onclick="filterByCompany('Isolpack')" class="company-btn px-3 py-1 rounded-full bg-slate-700 text-xs font-bold uppercase hover:bg-slate-600">Isolpack</button>
+                <button onclick="filterByCompany('Isotecnica')" class="company-btn px-3 py-1 rounded-full bg-slate-700 text-xs font-bold uppercase hover:bg-slate-600">Isotecnica</button>
+                <button onclick="filterByCompany('Isometal')" class="company-btn px-3 py-1 rounded-full bg-slate-700 text-xs font-bold uppercase hover:bg-slate-600">Isometal</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto p-4 md:p-6">
+        
+        <div class="bg-white p-6 rounded-3xl shadow-md mb-6 space-y-4">
+            <div class="relative">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                <input type="text" id="searchInput" onkeyup="applyAllFilters()" placeholder="Cerca qualsiasi cosa (es. Rosso, 0.5, Marcegaglia...)" 
+                       class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-red-500 outline-none">
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div>
+                    <label class="block text-[10px] uppercase font-bold text-gray-400 mb-1 ml-1">Materiale</label>
+                    <select id="filterMateriale" onchange="applyAllFilters()" class="w-full p-2 bg-gray-50 border border-gray-200 rounded-lg text-sm text-slate-700 font-medium outline-none focus:border-red-500">
+                        <option value="">Tutti</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[10px] uppercase font-bold text-gray-400 mb-1 ml-1">Colore</label>
+                    <select id="filterColore" onchange="applyAllFilters()" class="w-full p-2 bg-gray-50 border border-gray-200 rounded-lg text-sm text-slate-700 font-medium outline-none focus:border-red-500">
+                        <option value="">Tutti</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[10px] uppercase font-bold text-gray-400 mb-1 ml-1">Larghezza</label>
+                    <select id="filterLarghezza" onchange="applyAllFilters()" class="w-full p-2 bg-gray-50 border border-gray-200 rounded-lg text-sm text-slate-700 font-medium outline-none focus:border-red-500">
+                        <option value="">Tutte</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[10px] uppercase font-bold text-gray-400 mb-1 ml-1">Spessore</label>
+                    <select id="filterSpessore" onchange="applyAllFilters()" class="w-full p-2 bg-gray-50 border border-gray-200 rounded-lg text-sm text-slate-700 font-medium outline-none focus:border-red-500">
+                        <option value="">Tutti</option>
+                    </select>
+                </div>
+            </div>
         </div>
 
-        <div class="p-8 space-y-6">
-            <div class="flex items-center justify-between p-4 bg-gray-50 rounded-2xl border border-gray-100">
-                <div class="flex items-center gap-3">
-                    <div id="status-icon" class="w-3 h-3 rounded-full bg-yellow-400 animate-pulse"></div>
-                    <span class="text-sm font-bold text-gray-600 uppercase">Stato Database</span>
-                </div>
-                <span id="status-text" class="text-xs font-mono text-gray-400">Controllo...</span>
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-slate-800 text-white text-[11px] uppercase tracking-widest">
+                            <th class="p-4">Azienda / Materiale</th>
+                            <th class="p-4">Colore / Vernice</th>
+                            <th class="p-4">Misura (L x S)</th>
+                            <th class="p-4 text-center">Giacenza (ML)</th>
+                            <th class="p-4 text-center">Impegnato</th>
+                            <th class="p-4">Fornitore</th>
+                        </tr>
+                    </thead>
+                    <tbody id="inventoryBody" class="divide-y divide-gray-100 text-sm italic">
+                        </tbody>
+                </table>
             </div>
-
-            <div class="grid gap-4">
-                <button onclick="checkData()" class="group flex items-center justify-between p-4 bg-white border-2 border-gray-100 rounded-2xl hover:border-red-600 transition-all active:scale-95 shadow-sm">
-                    <div class="flex items-center gap-4">
-                        <div class="bg-red-50 text-red-600 p-3 rounded-xl group-hover:bg-red-600 group-hover:text-white transition-colors">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                        <div class="text-left">
-                            <h3 class="font-bold text-gray-800 leading-none">Consulta Giacenze</h3>
-                            <p class="text-[10px] text-gray-400 mt-1 uppercase">Verifica disponibilità bobine</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-chevron-right text-gray-300"></i>
-                </button>
-            </div>
-
-            <div class="pt-6 border-t border-gray-100">
-                <p class="text-[10px] text-gray-400 text-center uppercase tracking-widest leading-relaxed">
-                    Accesso riservato personale autorizzato<br>
-                    Ultimo aggiornamento: <span id="last-update" class="font-bold">--:--</span>
-                </p>
-            </div>
+        </div>
+        
+        <div id="loader" class="text-center py-20 text-gray-400">
+            <i class="fa-solid fa-spinner animate-spin text-3xl mb-2 text-red-500"></i>
+            <p>Sincronizzazione 5 database in corso...</p>
         </div>
     </div>
 
     <script>
-        // Funzione di test per verificare se il JSON esiste nella cartella data
-        async function checkData() {
-            const statusIcon = document.getElementById('status-icon');
-            const statusText = document.getElementById('status-text');
-            const lastUpdate = document.getElementById('last-update');
+        let allData = [];
+        let currentCompany = 'Tutte';
+        const aziende = ['Ingros', 'RWP', 'Isolpack', 'Isotecnica', 'Isometal'];
 
+        async function loadAllData() {
             try {
-                // Cerchiamo il file bobine.json (o cambialo con il nome reale del tuo file)
-                const response = await fetch('data/bobine.json?v=' + Date.now());
-                if (response.ok) {
-                    statusIcon.classList.remove('bg-yellow-400', 'animate-pulse');
-                    statusIcon.classList.add('bg-green-500');
-                    statusText.innerText = "ONLINE";
-                    statusText.classList.add('text-green-600');
-                    lastUpdate.innerText = new Date().toLocaleTimeString();
-                    alert("✅ Dati caricati correttamente! Pronto per la consultazione.");
-                } else {
-                    throw new Error();
-                }
-            } catch (err) {
-                statusIcon.classList.remove('bg-yellow-400', 'animate-pulse');
-                statusIcon.classList.add('bg-red-500');
-                statusText.innerText = "Dati Mancanti";
-                statusText.classList.add('text-red-600');
-                alert("❌ Errore: Il file JSON non è stato trovato nella cartella /data.");
+                const fetchPromises = aziende.map(async (az) => {
+                    const response = await fetch(`data/${az.toLowerCase()}.json?v=${Date.now()}`);
+                    if (!response.ok) return [];
+                    const data = await response.json();
+                    return data.map(item => ({ ...item, azienda: az }));
+                });
+
+                const results = await Promise.all(fetchPromises);
+                allData = results.flat();
+                
+                populateFilters();
+                document.getElementById('loader').classList.add('hidden');
+                applyAllFilters();
+            } catch (error) {
+                console.error("Errore caricamento:", error);
             }
         }
 
-        // Avvia il controllo automatico al caricamento
-        window.onload = checkData;
+        function populateFilters() {
+            const materials = [...new Set(allData.map(item => item.descrizione_tipo_materiale))].sort();
+            const colors = [...new Set(allData.map(item => item.descrizione_colore))].sort();
+            const widths = [...new Set(allData.map(item => item.larghezza))].sort((a,b) => a-b);
+            const thicks = [...new Set(allData.map(item => item.spessore))].sort();
+
+            fillSelect('filterMateriale', materials);
+            fillSelect('filterColore', colors);
+            fillSelect('filterLarghezza', widths);
+            fillSelect('filterSpessore', thicks);
+        }
+
+        function fillSelect(id, list) {
+            const select = document.getElementById(id);
+            list.forEach(val => {
+                if(val) select.innerHTML += `<option value="${val}">${val}</option>`;
+            });
+        }
+
+        function applyAllFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const fMat = document.getElementById('filterMateriale').value;
+            const fCol = document.getElementById('filterColore').value;
+            const fLar = document.getElementById('filterLarghezza').value;
+            const fSpe = document.getElementById('filterSpessore').value;
+
+            const filtered = allData.filter(item => {
+                const matchCompany = (currentCompany === 'Tutte' || item.azienda === currentCompany);
+                const matchSearch = Object.values(item).some(v => String(v).toLowerCase().includes(searchTerm));
+                const matchMat = !fMat || item.descrizione_tipo_materiale === fMat;
+                const matchCol = !fCol || item.descrizione_colore === fCol;
+                const matchLar = !fLar || item.larghezza == fLar;
+                const matchSpe = !fSpe || item.spessore == fSpe;
+
+                return matchCompany && matchSearch && matchMat && matchCol && matchLar && matchSpe;
+            });
+
+            renderTable(filtered);
+        }
+
+        function renderTable(data) {
+            const body = document.getElementById('inventoryBody');
+            body.innerHTML = data.map(item => `
+                <tr class="hover:bg-red-50/30 transition border-l-4 border-transparent hover:border-red-500">
+                    <td class="p-4">
+                        <span class="azienda-tag bg-${item.azienda.toLowerCase()}">${item.azienda}</span>
+                        <div class="font-bold text-slate-800 mt-1">${item.descrizione_tipo_materiale || '-'}</div>
+                    </td>
+                    <td class="p-4 font-medium">
+                        <div class="text-slate-700">${item.descrizione_colore || '-'}</div>
+                        <div class="text-[10px] text-gray-400 uppercase tracking-tighter">${item.tipo_verniciatura || '-'}</div>
+                    </td>
+                    <td class="p-4 font-mono text-slate-600">
+                        ${item.larghezza || '0'} <span class="text-gray-300">x</span> ${item.spessore || '0'}
+                    </td>
+                    <td class="p-4 text-center font-black text-blue-700 bg-blue-50/30">${item.qta_giacenza_ml || '0'}</td>
+                    <td class="p-4 text-center font-bold text-red-500">${item.qta_impegnata_ml || '0'}</td>
+                    <td class="p-4 text-[10px] text-gray-500 uppercase leading-tight">
+                        ${item.giacenza_codice_fornitore || '-'}
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function filterByCompany(company) {
+            currentCompany = company;
+            const buttons = document.querySelectorAll('.company-btn, #btn-tutte');
+            buttons.forEach(btn => btn.classList.replace('bg-red-600', 'bg-slate-700'));
+            event.target.classList.replace('bg-slate-700', 'bg-red-600');
+            applyAllFilters();
+        }
+
+        window.onload = loadAllData;
     </script>
 </body>
 </html>
