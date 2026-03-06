@@ -85,25 +85,61 @@
     <script>
         let fullData = []; 
         let activeCompany = 'Tutte';
-        const nomiAziende = ['ingros', 'rwp', 'isolpack', 'isotecnica', 'isometal'];
 
         async function init() {
             let combined = [];
-            for (const az of nomiAziende) {
-                try {
-                    const res = await fetch(`data/${az}.json?v=${Date.now()}`);
-                    if (res.ok) {
-                        const json = await res.json();
-                        const mapped = json.map(i => ({ ...i, azienda: az.toUpperCase() }));
-                        combined = combined.concat(mapped);
-                        addTab(az);
+            const container = document.getElementById('tab-container');
+            if (!container) return;
+
+            try {
+                // 1. LEGGE IL FILE DI CONFIGURAZIONE ESTERNO
+                const configRes = await fetch(`config.json?v=${new Date().getTime()}`);
+                if (!configRes.ok) throw new Error("File config.json non trovato");
+            
+                const config = await configRes.json();
+                const aziendeDaCaricare = config.aziende_attive;
+
+                // 2. RESET TAB
+                container.innerHTML = `<button onclick="changeCompany('Tutte')" id="tab-tutte" class="azienda-tab active h-full px-1 uppercase tracking-widest whitespace-nowrap">Tutte le Aziende</button>`;
+
+                // 3. CARICA SOLO LE AZIENDE PRESENTI NEL CONFIG
+                for (const az of aziendeDaCaricare) {
+                    try {
+                        const response = await fetch(`data/${az.toLowerCase()}.json?v=${new Date().getTime()}`);
+                    
+                        if (response.ok) {
+                            const json = await response.json();
+                            if (Array.isArray(json)) {
+                                const mapped = json.map(i => {
+                                    // Normalizzazione spessore (gestisce "5/10" -> "0.5")
+                                    let s = String(i.spessore);
+                                    if (s.includes('/')) {
+                                        const parti = s.split('/');
+                                        s = (parseFloat(parti[0]) / parseFloat(parti[1])).toString();
+                                    }
+                                    return { ...i, azienda: az.toUpperCase(), spessore: s };
+                                });
+                                combined = combined.concat(mapped);
+                                addTab(az);
+                            }
+                        }
+                    } catch (e) {
+                        console.error(`Errore nel caricamento dei dati per ${az}:`, e);
                     }
-                } catch (e) { console.log(az + " file mancante"); }
+                }    
+            
+                fullData = combined;
+                populateFilters();
+                render();
+
+            } catch (err) {
+                console.error("Errore configurazione:", err);
+                // Se il config fallisce, mostriamo un messaggio all'utente
+                container.innerHTML = `<span class="text-red-500 text-[10px]">Errore caricamento configurazione</span>`;
             }
-            fullData = combined;
-            populateFilters();
-            render();
-            document.getElementById('loader').remove();
+        
+            const loader = document.getElementById('loader');
+            if (loader) loader.style.display = 'none';
         }
 
         function addTab(az) {
